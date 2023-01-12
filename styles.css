@@ -35,9 +35,14 @@ header {
   align-items: center;
 }
 
+h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
 a {
   text-decoration: none;
-  color: rgb(240, 240, 240)
+  color: rgb(240, 240, 240);
 }
 
 .tile {
@@ -46,6 +51,17 @@ a {
   background-color: rgb(37, 37, 37);
   margin: 7px;
   border-radius: 17px;
-  display: flex ;
+  display: flex;
   justify-content: space-between;
+}
+
+.image-container {
+  height: 96px;
+  width: 96px;
+  border-radius: 48px;
+  overflow: hidden;  
+}
+
+.image-container img {
+  height: 100%;
 }
