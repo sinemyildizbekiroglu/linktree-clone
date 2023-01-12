@@ -35,10 +35,17 @@ header {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(240, 240, 240)
+}
+
 .tile {
   width: 100%;
   height: 56px;
   background-color: rgb(37, 37, 37);
   margin: 7px;
   border-radius: 17px;
+  display: flex ;
+  justify-content: space-between;
 }
